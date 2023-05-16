@@ -1,0 +1,129 @@
+/*body*/
+.fondobody{
+    background-color:#bfb1b0;
+}
+/* barra e nav*/
+.navbar.navbar-expand-.lg-colbarra{
+    background-color:#bdb6b5;
+   
+}
+/* seccion logos de  font awesome*/
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color:transparent;
+    
+}
+
+.modal-content{
+    background-color: #bdb6b5;
+}
+.form-control{
+    background-color: beige;
+}
+#logiModal{
+    background: transparent;
+
+}
+.fa-brands.fa-linkedin.fa-2x{
+        color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+      }
+      
+.fa-brands.fa-github.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+
+}
+.fa-brands.fa-instagram.fa-2x{
+    color: #333; /* Cambia el color a uno diferente al azul */
+        text-decoration: none; /* Elimina la subrayado del enlace */
+
+}
+
+/*  para unir las clases as unimos seguidas de un punto.
+.fa-solid.fa-user-lock.fa-2x{
+    background-color: #0d6efd;
+}
+*/
+/*#texto{
+    
+}*/
+
+/*  SECCION ACERCA DE MI*/
+.featurette-divider{
+    background-color: beige;
+}
+.row{
+    padding: 15px;
+    font-family:inherit;
+}
+#nombre{
+    margin-top: 10px;
+    margin-left:10px;;
+}
+#parrafo{
+    font-family:inherit;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+div{
+    background-color:#bdb6b5;
+    
+}
+/* estilo de la foto de perfin*/
+
+@media (min-width:576px){
+    #fotodeperfil{
+        position:absolute;
+        width: 12%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:400px;
+
+    }
+}
+
+@media (max-width:576px){
+    #fotodeperfil{
+        position:absolute;
+        width: 27%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 38%;
+        top: 204px;
+
+    }
+}
+/*Etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+   
+}
+
+/* HASTA ACA ACERCA DE MI*/
+/* experiencia laboral*/
+.row{
+background:#bdb6b5;
+}
+h1{
+    font-family:inherit;
+}
+h2, h4{
+    font-family:inherit;
+}
+.parr{
+    font-family: inherit;
+}
+/*seccion experiencia lab*/
+#fototrab{
+        width: 200px;
+        height: 200px;
+        border-radius: 28%;
+        box-shadow: 3px 3px 3px grey;
+        
+}
+.featurette-heading.fw-normal.lh-1{
+    font-family: cursive;
+}
